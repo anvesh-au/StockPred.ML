@@ -1,1 +1,1 @@
-# StockGAN
+# StockPred.ml
