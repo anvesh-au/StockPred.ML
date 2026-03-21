@@ -140,8 +140,8 @@ File: gan.ipynb
 
 GANs consist of two competing neural networks:
 
-Generator  
-Discriminator
+- Generator  
+- Discriminator
 
 The generator tries to create realistic sequences of stock price data, while the discriminator attempts to distinguish real data from generated data.
 
@@ -210,9 +210,3 @@ Future improvements could include:
 - Backtesting strategies
 - Multi-asset prediction
 - Reinforcement learning for trading
-
----
-
-# Author
-
-Anvesh Gandotra
