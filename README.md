@@ -31,8 +31,6 @@ Each stage helps transform raw stock data into meaningful predictions.
 
 # 1. Data Sourcing
 
-Handled in: data_creation.ipynb
-
 This stage prepares the dataset used for training the models.
 
 Key steps include:
@@ -83,8 +81,6 @@ Each model is implemented in its own notebook to allow independent experimentati
 
 # 3.1 RNN (Recurrent Neural Network)
 
-File: rnn.ipynb
-
 RNNs are one of the earliest neural network architectures designed for sequential data.
 
 They process inputs step-by-step while maintaining a hidden state that captures information from previous time steps.
@@ -99,8 +95,6 @@ However, standard RNNs struggle with long-term dependencies due to the **vanishi
 ---
 
 # 3.2 LSTM (Long Short-Term Memory)
-
-File: lstm.ipynb
 
 LSTMs are an improved form of RNN designed to handle long-term dependencies in sequential data.
 
@@ -118,8 +112,6 @@ Because financial markets often show long-term dependencies, LSTMs are widely us
 
 # 3.3 GRU (Gated Recurrent Unit)
 
-File: gru.ipynb
-
 GRUs are a simplified version of LSTMs.
 
 They combine certain gating mechanisms, reducing the number of parameters while maintaining strong performance.
@@ -135,8 +127,6 @@ GRUs are useful when computational efficiency is important while still modeling 
 ---
 
 # 3.4 GAN (Generative Adversarial Network)
-
-File: gan.ipynb
 
 GANs consist of two competing neural networks:
 
@@ -204,9 +194,9 @@ Rather than building a production trading system, the repository focuses on **ed
 
 Future improvements could include:
 
+- Rolling sliding window based testing-training implementation
+- Sentiment Analysis for richer data
 - Transformer-based time-series models
 - Attention mechanisms
 - Volatility prediction
 - Backtesting strategies
-- Multi-asset prediction
-- Reinforcement learning for trading
